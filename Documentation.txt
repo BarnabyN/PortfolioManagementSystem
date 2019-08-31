@@ -1,0 +1,14 @@
+Written by Barnaby Napier
+
+* Each data module has a "series_list"
+	>>> series_list[i] = [quandl_code, series_name, asset_class]
+
+* The "codes" attribute refers to i[2] for i in series_list
+
+* QuandlData - "time_series" method:
+	- This module will be inherited by all data modules I create
+	- This will pull through all columns of the quandl query
+	- If you want to pull through a certain column write a custom method in the data module
+
+
+
