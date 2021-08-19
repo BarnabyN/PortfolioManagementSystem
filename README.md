@@ -1,4 +1,1 @@
-# PortfolioManagementSystem
- 
-The modData file pulls data from Quandl
-You can get this data as a pandas dataframe by choosing "load_data"
+Load data from a quandl connection using the load_data function. Initially the plan was to make a broader portfolio management system, this is the first draft of that. Data cached as pickle for faster loading next time.
